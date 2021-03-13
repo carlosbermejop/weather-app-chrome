@@ -1,0 +1,13 @@
+{
+    "name": "Weather App",
+    "description": "Get the weather forecast for your location or for the city you choose",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
